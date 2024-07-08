@@ -11,7 +11,6 @@ import io.github.nyghtfull.module.modules.render.*;
 import java.util.List;
 import java.util.Objects;
 
-//thx to liticane for this one <3
 public class ModuleManager extends Manager<Module> {
     public void registerModules() {
         this.register(
