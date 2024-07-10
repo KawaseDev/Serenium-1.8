@@ -20,9 +20,9 @@ public class Serenium {
     public static final String NAME = "Serenium", VERSION = "b1",
             BY = "Developed By Nyghtfull & Protected By Liticane <3";
 
-    public ModuleManager moduleManager;
-    public EventManager eventManager;
-    public ComponentManager componentManager;
+    private ModuleManager moduleManager;
+    private EventManager eventManager;
+    private ComponentManager componentManager;
 
     public void init() {
         Display.setTitle("Minecraft 1.8.9  - LWJGL " + Sys.getVersion());
